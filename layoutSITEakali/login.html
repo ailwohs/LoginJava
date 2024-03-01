@@ -1,0 +1,56 @@
+<!--
+  Contribuidor: Eduardo Programador
+  www.eduardoprogramador.com
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="eduardoprogramador/regexwarrior.js"></script>
+  <script type="text/javascript" src="eduardoprogramador/duscript.js"></script>
+  <script type="text/javascript" src="login.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <form class="form">
+    <div class="card">
+      <div class="card-top">
+        <img class="imguser" src="./assets/5087579.png" alt="">
+        <h2 class="title">Bem vinda(o)!</h2>
+        <p>Faça o seu login!</p>
+      </div>
+
+      <div class="card-group">
+        <label>Email</label>
+        <input type="email" name="Email" placeholder="Digite seu email" required id="email">
+      </div>
+     
+
+      <div class="card-group">
+        <label>Senha</label>
+        <input type="password" name="Email" placeholder="Digite sua senha" required id="pass">
+      </div>
+
+      <div class="card-group">
+        <label><input type="checkbox"> Lembre-me</label>
+      </div>
+
+      <div class="card-group btn">
+        <button type="submit" id="submit">ACESSAR</button>
+      </div>
+
+    </div>
+  </form>
+
+  <script>
+    window.onload = main();
+  </script>
+
+</body>
+</html>
