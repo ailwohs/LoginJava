@@ -6,12 +6,12 @@
 @import url('footer.css');
 
 :root {
-    --color-primary-1: #fff9ea;
-    --color-primary-2: #ffe8b4;
-    --color-primary-3: #f8d477;
-    --color-primary-4: #ffe100;
-    --color-primary-5: #ffcb45;
-    --color-primary-6: #e9a209;
+    --color-primary-1: #fceefc;
+    --color-primary-2: #e0679f;
+    --color-primary-3: #e494bc;
+    --color-primary-4: #f7a9ec;
+    --color-primary-5: #f7a9ec;
+    --color-primary-6: #f063b1;
 
     --color-neutral-0: #fff;
     --color-neutral-1: #1d1d1d;
