@@ -28,6 +28,11 @@
     overflow: hidden;
 }
 
+.dish-image{
+    height: 200px;
+}
+
+
 .dish-heart {
     position: absolute;
     background-color: var(--color-primary-6);
